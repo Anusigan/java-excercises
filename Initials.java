@@ -9,6 +9,7 @@ public class Initials {
         String s_name=sc.nextLine();
         s_name=s_name.substring(0,1);
         System.out.println(f_name+s_name);
+        sc.close();
 
     }
     
