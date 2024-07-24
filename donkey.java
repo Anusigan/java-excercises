@@ -10,6 +10,7 @@ numbers[i]=num;
 }
 for(int j=0;j<numbers.length;j++){
 System.out.println(numbers[j]);
+sc.close();
 }
 }
 
