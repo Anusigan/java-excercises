@@ -6,7 +6,10 @@ public class Exam11 {
     Scanner sc=new Scanner(System.in);
     System.out.println("Enter the name: ");
     String name=sc.nextLine();
-    
+    for(int i=0;i<name.length();i++){
+        System.out.print("*");
+    }
+    sc.close();
     
 }
 }
