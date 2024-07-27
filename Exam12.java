@@ -4,6 +4,7 @@ public class Exam12 {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter your first  name:");
         String name=sc.nextLine();
+        
     }
 
     
