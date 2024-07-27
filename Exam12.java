@@ -7,7 +7,10 @@ public class Exam12 {
         int count=0;
         while(count<name.length()){
             System.out.print("*");
+            count++;
+        
         }
+        sc.close();
     }
 
     
