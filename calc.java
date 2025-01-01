@@ -13,4 +13,8 @@ class calculator{
         int multi=n1*n2;
         return(multi);
     }
+    public int divi(int n1, int n2){
+        int divi=n1/n2;
+        return(divi);
+    }
 }
