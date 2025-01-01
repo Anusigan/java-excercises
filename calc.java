@@ -8,4 +8,9 @@ class calculator{
         int sub=n1-n2;
         return(sub);
     }
+
+    public int multi(int n1 ,int n2){
+        int multi=n1*n2;
+        return(multi);
+    }
 }
