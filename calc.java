@@ -9,25 +9,30 @@ class Calculator{
         return(sub);
     }
 
+   
+   
+}
+
+
+class AdvancedCalculator extends Calculator{
     public int multi(int n1 ,int n2){
         int multi=n1*n2;
         return(multi);
     }
+
+}
+
+class VeryAdvancedCalculator extends AdvancedCalculator{
     public int divi(int n1, int n2){
         int divi=n1/n2;
         return(divi);
     }
 }
 
-
-class AdvancedCalculator extends Calculator{
-
-}
-
 public class calc{
     public static void main(String[] args) {
-        AdvancedCalculator sc=new AdvancedCalculator();
-        System.out.println(sc.multi(10,5));
+        VeryAdvancedCalculator sc=new VeryAdvancedCalculator();
+        System.out.println(sc.add(10,5));
         
     }
 }
