@@ -9,6 +9,9 @@ class B extends A{
     public B (){
         System.out.println("Hi");
     }
+    public B (int n){
+        System.out.println("int B int");
+    }
 
 }
 
