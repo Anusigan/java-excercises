@@ -18,3 +18,11 @@ class calculator{
         return(divi);
     }
 }
+
+public class calc{
+    public static void main(String[] args) {
+        calculator sc=new calculator();
+        sc.multi(10,5);
+        
+    }
+}
