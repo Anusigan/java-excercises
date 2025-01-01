@@ -17,6 +17,6 @@ class B extends A{
 
 public class inh{
     public static void main(String[] args) {
-        B obj = new B();
+        B obj = new B(5);
     }
 }
