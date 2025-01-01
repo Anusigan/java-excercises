@@ -22,7 +22,7 @@ class calculator{
 public class calc{
     public static void main(String[] args) {
         calculator sc=new calculator();
-        sc.multi(10,5);
+        System.out.println(sc.multi(10,5));
         
     }
 }
