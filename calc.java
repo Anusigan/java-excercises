@@ -1,4 +1,4 @@
-class calculator{
+class Calculator{
     public int add(int n1, int n2){
         int sum=n1+n2;
         return(sum);
@@ -19,9 +19,14 @@ class calculator{
     }
 }
 
+
+class AdvancedCalculator extends Calculator{
+
+}
+
 public class calc{
     public static void main(String[] args) {
-        calculator sc=new calculator();
+        AdvancedCalculator sc=new AdvancedCalculator();
         System.out.println(sc.multi(10,5));
         
     }
