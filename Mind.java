@@ -15,7 +15,8 @@ public void monkey (int n){
 
 public class Mind {
     public static void main(String[] args) {
-        
+       Bye sc=new Bye();
+       sc.Donkey(10);
     }
     
 
