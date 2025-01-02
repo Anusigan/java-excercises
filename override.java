@@ -7,6 +7,8 @@ class A{
         System.out.println("Bye");
 
     }
+
+    
     
 }
 class B extends A{
