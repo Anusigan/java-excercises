@@ -1,8 +1,14 @@
 class Hi {
-
+public void Donkey(int n){
+    int add =n*2;
+    System.out.println(add);
+}
 }
 
-class Bye implements Hi
+class Bye extends Hi{
+
+    
+}
 
 
 public class Mind {
