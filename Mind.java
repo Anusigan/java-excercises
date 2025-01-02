@@ -6,13 +6,17 @@ class Hi {
 }
 
 class Bye extends Hi {
-public void monkey
-    {
-
-    }
+public void monkey (int n){
+    int subract=n-1;
+    System.out.println(subract);
+}
 
 }
 
 public class Mind {
+    public static void main(String[] args) {
+        
+    }
+    
 
 }
