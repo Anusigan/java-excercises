@@ -1,9 +1,10 @@
-interface A{
-    public abstract void show();
-    public abstract void config();
+interface A {
+    void show();
+
+    void config();
 }
 
-
 public class AbstractTwo {
-    
+    A sc = new A();
+
 }
