@@ -1,7 +1,6 @@
 class Car{
     public void drive(){
-        System.out.println("Auto Driving");
-
+        //not implementing this method
     }
     public void skate(){
         System.out.println("Play Music");
