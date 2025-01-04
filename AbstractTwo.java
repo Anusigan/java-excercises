@@ -21,6 +21,7 @@ public class AbstractTwo {
     public static void main(String[] args) {
         A sc = new B();
         sc.show();
+        System.out.println(A.area);
 
     }
 
