@@ -1,4 +1,6 @@
 interface A {
+    int age=44;
+    String area="Mumbai";  // All the variables initialized inside the interface are final and static
     void show();
 
     void config();
