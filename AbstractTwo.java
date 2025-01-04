@@ -6,5 +6,6 @@ interface A {
 
 public class AbstractTwo {
     A sc = new A();
+    
 
 }
