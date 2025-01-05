@@ -3,16 +3,23 @@
 public class ExceptionA {
     public static void main(String[] args) {
         int i=0;
-        int nums[]=new int[5];
+        
+        int j=0;
         try{
-        int j=18/2;
-        System.out.println(nums[1]);
-        System.out.println(nums[5]);
-        System.out.println(j);
+         j=18/i;
+         
+
+
+       
+        
         }
-        catch (Exception e){
+        catch (ArithmeticException e){
             System.out.println(e);
         }
+        catch(ArrayIndexOutOfBoundsException e){
+            System.out.println(e);
+        }
+        System.out.println(j);
 
     }
     
