@@ -11,7 +11,7 @@ public class ExceptionA {
         System.out.println(j);
         }
         catch (Exception e){
-            System.out.println("18 cannot be divided by zero"+ e);
+            System.out.println(e);
         }
 
     }
