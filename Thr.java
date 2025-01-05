@@ -1,4 +1,4 @@
-class A{
+class A extends Thread{
    public void show(){
     for (int i=0;i<=10;i++){
     System.out.println("Hi");
@@ -6,7 +6,7 @@ class A{
    }
 
 }
-class B{
+class B extends Thread{
     public void show(){
     for (int i=0;i<=10;i++){
         System.out.println("Hello");
