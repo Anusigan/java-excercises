@@ -1,12 +1,12 @@
-interface A {
+interface Anu {
     void Hi();
 
     void Hello();
 }
 
-class A{
-    public void Hi(){
+class A implements Anu {
+    public void Hi() {
         System.out.println("Hi");
     }
-    publi
+
 }
