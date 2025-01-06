@@ -13,3 +13,12 @@ class A implements Anu {
     }
 
 }
+
+public class Prac{
+    public static void main(String[] args) {
+        A sc=new A();
+        sc.Hi();
+        sc.Hello();
+    }
+
+}
