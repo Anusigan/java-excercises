@@ -15,7 +15,9 @@ class B extends Donkey{
         int j=2;
         System.out.println(i+j);
     }
-    pu
+    public void singing(){
+        System.out.println("Hey buddy i can sing well");
+    }
 }
 
 public class Prac2 {
