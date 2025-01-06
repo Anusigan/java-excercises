@@ -21,5 +21,8 @@ class B extends Donkey{
 }
 
 public class Prac2 {
+    Donkey d=new B();
+    
+   
 
 }
