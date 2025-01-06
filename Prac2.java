@@ -21,8 +21,15 @@ class B extends Donkey{
 }
 
 public class Prac2 {
-    Donkey d=new B();
+    public static void main(String[] args) {
+        Donkey d=new B();
+    d.anu();
+    d.running();
+    d.singing();
+        
+    }
     
+
    
 
 }
