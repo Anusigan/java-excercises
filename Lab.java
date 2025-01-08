@@ -5,6 +5,7 @@ public class Lab {
         System.out.println("Checkinggg");
         System.out.println("Checkinggg");
         System.out.println("Checkinggg");
+        System.out.println("Checkinggg");
     }
     
 }
