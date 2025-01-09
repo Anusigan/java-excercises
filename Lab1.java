@@ -3,9 +3,20 @@ abstract class Animal {
 }
 
 class Dog extends Animal{
-    public abstract void
+    public void sound(){
+        System.out.println("Wowww");
+    }
+}
+
+class Cat extends Animal{
+    public void sound(){
+        System.out.println("Meowwww");
+    }
 }
 
 public class Lab1 {
+    Animal c=new Cat();
+    Animal d=new Dog();
+
 
 }
