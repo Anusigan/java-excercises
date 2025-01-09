@@ -10,6 +10,10 @@ class Duck implements Flyable, Swimmable {
     public void fly() {
         System.out.println("I can swim");
     }
+    public void swim(){
+        
+    
+    }
 
 }
 
