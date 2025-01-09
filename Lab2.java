@@ -27,8 +27,14 @@ class Bike implements Vehicle{
 public class Lab2 {
     public static void main(String[] args) {
         Vehicle c=new Car();
+        Vehicle b=new Bike();
+        c.startEngine();
+        c.stopEngine();
+        b.startEngine();
+        b.stopEngine();
         
         
     }
+
     
 }
