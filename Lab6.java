@@ -8,10 +8,10 @@ interface Swimmable {
 
 class Duck implements Flyable, Swimmable {
     public void fly() {
-        System.out.println("I can swim");
+        System.out.println("I can fly");
     }
     public void swim(){
-        
+        System.out.println("I can swim");
     
     }
 
