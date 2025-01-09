@@ -27,13 +27,13 @@ class Triangle implements Shape{
 
 class ShapeFactory{
     public Shape getShape(String stype){
-        if (stype=="Circle"){
+        if (stype.equalsIgnoreCase("Circle")){
             return new Circle();
         }
-        else if (stype=="Square"){
+        else if (stype.equalsIgnoreCase("Square")){
             return new Square();
         }
-        else if (stype=="Triangle"){
+        else if (stype.equalsIgnoreCase("Triangle")){
             return new Triangle();
         }
         else{
@@ -50,21 +50,19 @@ class ShapeFactory{
 
 
 public class Lab5 {
+    
     public static void main(String[] args) {
-        System.out.println("Enter the shape typle");
+
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the shape typle");
         String stype=sc.nextLine();
 
         ShapeFactory f=new ShapeFactory();
-        Shape circle=f.getShape(stype);
-        Shape square=f.getShape(stype);
-        Shape triangle=f.getShape(stype);
+        Shape shape=f.getShape(stype);
+       
 
 
-        circle.draw();
-        triangle.draw();
-        square.draw();
-        
+       shape.draw();
     }
     
 }
