@@ -8,5 +8,6 @@ class B extends Thread {
 }
 
 public class Lab12 {
+    
 
 }
