@@ -19,11 +19,10 @@ public class Lab12 {
     public static void main(String[] args) {
             B anu=new B();
             X aksi=new X();
-            Thread B=new Thread(anu);
-            Thread A=new Thread(aksi);
+            
 
-            B.start();
-            A.start();
+            anu.start();
+            aksi.start();
 
 
     }
