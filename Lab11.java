@@ -20,6 +20,7 @@ public class Lab11 {
         B bird=new B();
         A anu=new B();
         
+
     }
 
     
