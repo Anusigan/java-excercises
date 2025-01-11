@@ -19,7 +19,9 @@ public class Lab11 {
     public static void main(String[] args) {
         B bird=new B();
         A anu=new B();
-        
+        bird.fly();
+        anu.fly();
+
 
     }
 
