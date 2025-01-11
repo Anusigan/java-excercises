@@ -10,7 +10,7 @@ class B extends Thread {
 class X extends Thread{
     public void run(){
         for(int i=10;i<=100;i++){
-            
+            System.out.println(i);
         }
     }
 }
