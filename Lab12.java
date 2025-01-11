@@ -7,6 +7,14 @@ class B extends Thread {
     }
 }
 
+class X extends Thread{
+    public void run(){
+        for(int i=10;i<=100;i++){
+            
+        }
+    }
+}
+
 public class Lab12 {
     public static void main(String[] args) {
             B anu=new B();
