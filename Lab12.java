@@ -8,6 +8,10 @@ class B extends Thread {
 }
 
 public class Lab12 {
-    
+    public static void main(String[] args) {
+            B anu=new B();
+            Thread B=new Thread();
+            
+    }
 
 }
