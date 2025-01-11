@@ -1,6 +1,8 @@
 class B extends Thread {
     public void run(){
-        forI
+        for(int i=1;i<=10;i++){
+            
+        }
     }
 }
 
