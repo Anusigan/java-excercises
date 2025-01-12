@@ -18,8 +18,8 @@ class B extends Thread{
 
 public class Lab32 {
     public static void main(String[] args) {
-        Thread a=new Anu();
-        Thread b=new B();
+        Anu a=new Anu();
+        B b=new B();
 
         a.start();
         b.start();
