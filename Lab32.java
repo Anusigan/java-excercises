@@ -20,13 +20,10 @@ public class Lab32 {
     public static void main(String[] args) {
         Anu a=new Anu();
         B b=new B();
+        
 
-
-        Thread sc=new Thread(a);
-        Thread sc1=new Thread (b);
-
-        sc.start();
-        sc1.start();
+        a.start();
+        b.start();
     }
 
 }
