@@ -26,6 +26,6 @@ public class Lab12 {
 
 
     }
-    sout    
+   
 
 }
