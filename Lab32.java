@@ -17,5 +17,8 @@ class B extends Thread{
 }
 
 public class Lab32 {
+    public static void main(String[] args) {
+        
+    }
 
 }
