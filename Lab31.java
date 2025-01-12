@@ -4,7 +4,15 @@ abstract class Donkey {
     public abstract void pee();
 }
 
-class Anu
+class Anu extends Donkey{
+    public void eat(){
+
+    }
+    public void pee(){
+        
+    }
+
+}
 
 public class Lab31 {
 
