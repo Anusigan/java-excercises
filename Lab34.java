@@ -21,7 +21,8 @@ public class Lab34 {
         Runnable sc=new A();
         Runnable sc1=new B();
 
-        Thread
+        Thread a=new Thread(sc);
+        Thread b=new Thread(sc1);
     }
 
 }
