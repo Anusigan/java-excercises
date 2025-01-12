@@ -19,6 +19,8 @@ class Anu extends Donkey{
 public class Lab31 {
     public static void main(String[] args) {
         Donkey a=new Anu();
+        a.eat();
+        a.pee();
         
     }
 
