@@ -23,6 +23,8 @@ public class Lab34 {
 
         Thread a=new Thread(sc);
         Thread b=new Thread(sc1);
+
+        a.start();
     }
 
 }
