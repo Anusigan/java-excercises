@@ -10,6 +10,7 @@ class Anu extends Donkey{
         System.out.println("Im eating");
     }
     public void pee(){
+        System.out.println("Im peeing");
 
     }
 
