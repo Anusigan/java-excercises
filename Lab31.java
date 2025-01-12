@@ -1,5 +1,5 @@
 abstract class Donkey{
-    public abstract
+    public abstract void eat();
 }
 
 public class Lab31 {
