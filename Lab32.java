@@ -21,8 +21,12 @@ public class Lab32 {
         Anu a=new Anu();
         B b=new B();
 
-        a.start();
-        b.start();
+
+        Thread sc=new Thread(a);
+        Thread sc1=new Thread (b);
+
+        sc.start();
+        sc1.start();
     }
 
 }
