@@ -10,6 +10,7 @@ class Anu extends Thread {
 class B extends Thread{
     public void run(){
         
+
     }
 }
 
