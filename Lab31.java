@@ -7,9 +7,10 @@ abstract class Donkey {
 class Anu extends Donkey{
     public void eat(){
 
+        System.out.println("Im eating");
     }
     public void pee(){
-        
+
     }
 
 }
