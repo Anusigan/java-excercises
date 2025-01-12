@@ -25,6 +25,7 @@ public class Lab34 {
         Thread b=new Thread(sc1);
 
         a.start();
+        b.start();
     }
 
 }
