@@ -1,4 +1,6 @@
-abstract
+abstract class Donkey{
+    
+}
 
 
 
