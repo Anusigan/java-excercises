@@ -1,15 +1,15 @@
 class B extends Thread {
-    public void run(){
-        for(int i=1;i<=10;i++){
+    public void run() {
+        for (int i = 1; i <= 10; i++) {
             System.out.println(i);
 
         }
     }
 }
 
-class X extends Thread{
-    public void run(){
-        for(int i=10;i<=100;i++){
+class X extends Thread {
+    public void run() {
+        for (int i = 10; i <= 100; i++) {
             System.out.println(i);
         }
     }
@@ -26,5 +26,6 @@ public class Lab12 {
 
 
     }
+    sout    
 
 }
