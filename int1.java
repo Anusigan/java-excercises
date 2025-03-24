@@ -1,11 +1,18 @@
 public class int1{
     public static void main(String [] args){
-        int [] numbers=new int [10];
-        for(int i=0;i<10;i++){
-            numbers[i]=i;
+      int [] num =new int []{10,40,90,60,500,100};
+      int large = num[0];
+      for(int i : num){
+        if(i>large){
+            large = i;
         }
-        for(int nanu:numbers){
-            System.out.println(nanu);
+        else{
+            large=large;
         }
+        
+    
+
+      }
+      System.out.println(large);
     }
 }
